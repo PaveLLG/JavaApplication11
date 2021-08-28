@@ -9,6 +9,15 @@ public class JavaApplication11 {
         System.out.println(r1);
         System.out.println(c1);
 
+        Shape[] shapes = {
+                r1, c1, new Rect(1,2,3,4, "Rectangle-1")
+        };
+
+        for (Shape shape: shapes) {
+            System.out.println(shape);
+        }
+
+
     }
 
 }
