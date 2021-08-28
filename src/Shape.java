@@ -11,7 +11,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "name :" +
+        return name + " : " +
                 "x= " + x +
                 ", y= " + y ;
     }
