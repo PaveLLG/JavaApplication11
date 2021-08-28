@@ -12,4 +12,11 @@ public class Circle extends Shape {
         return super.toString() +
                 ", r=" + r ;
     }
+
+    public double area(){
+        return Math.PI*r*r;
+    }
+
+
+
 }

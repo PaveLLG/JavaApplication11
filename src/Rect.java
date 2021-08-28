@@ -12,4 +12,9 @@ public class Rect extends Shape{
     public String toString() {
         return super.toString() + ", a =" + a + ", b =" + b;
     }
+
+    public double area(){
+        return a * b;
+    }
+
 }
